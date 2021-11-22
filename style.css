@@ -23,7 +23,6 @@ body {
   width: 250px;
   user-select: none;
 }
-
 .container .score-text {
   font-size: 30px;
   margin-top: 100px;
@@ -48,4 +47,31 @@ body {
     font-size: 25px;
     margin-top: 50px;
   }
+}
+
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 30px;
+  align-items: center;
+}
+.social-icons .github,
+.social-icons .facebook{
+  font-size: 30px;
+}
+.social-icons .github a{
+  color: #161b22;
+  transition: .2s linear opacity;
+}
+.social-icons .github a:hover {
+  opacity: .8;
+}
+
+.social-icons .facebook a{
+  color: #0c89f0;
+  transition: .2s linear opacity;
+}
+.social-icons .facebook a:hover {
+  opacity: .8;
 }
