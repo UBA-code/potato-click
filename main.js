@@ -58,3 +58,4 @@ function slapAnimation() {
     document.images[0].style.transform = "rotate(0deg)";
   }, 100);
 }
+
